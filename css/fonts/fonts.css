@@ -1,0 +1,91 @@
+@font-face {
+    font-family: '29lt_bukra_boldbold';
+    src: url('29LTBukra-Bold.eot');
+    src: url('29LTBukra-Bold.eot?#iefix') format('embedded-opentype'),
+        url('29LTBukra-Bold.woff2') format('woff2'),
+        url('29LTBukra-Bold.woff') format('woff'),
+        url('29LTBukra-Bold.ttf') format('truetype'),
+        url('29LTBukra-Bold.svg#29LTBukra-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '29lt_bukrabold_italic';
+    src: url('29LTBukra-BoldItalic.eot');
+    src: url('29LTBukra-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('29LTBukra-BoldItalic.woff2') format('woff2'),
+        url('29LTBukra-BoldItalic.woff') format('woff'),
+        url('29LTBukra-BoldItalic.ttf') format('truetype'),
+        url('29LTBukra-BoldItalic.svg#29LTBukra-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'efframedium';
+    src: url('Effra-Medium.eot');
+    src: url('Effra-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Medium.woff2') format('woff2'),
+        url('Effra-Medium.woff') format('woff'),
+        url('Effra-Medium.ttf') format('truetype'),
+        url('Effra-Medium.svg#Effra-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Regular.eot');
+    src: url('Effra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Regular.woff2') format('woff2'),
+        url('Effra-Regular.woff') format('woff'),
+        url('Effra-Regular.ttf') format('truetype'),
+        url('Effra-Regular.svg#Effra-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra-2';
+    src: url('Effra-Light.eot');
+    src: url('Effra-Light.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Light.woff2') format('woff2'),
+        url('Effra-Light.woff') format('woff'),
+        url('Effra-Light.ttf') format('truetype'),
+        url('Effra-Light.svg#Effra-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: '29LT Bukra';
+    src: url('29LTBukra-Regular.eot');
+    src: url('29LTBukra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('29LTBukra-Regular.woff2') format('woff2'),
+        url('29LTBukra-Regular.woff') format('woff'),
+        url('29LTBukra-Regular.ttf') format('truetype'),
+        url('29LTBukra-Regular.svg#29LTBukra-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra-bold';
+    src: url('Effra-Bold.eot');
+    src: url('Effra-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Bold.woff2') format('woff2'),
+        url('Effra-Bold.woff') format('woff'),
+        url('Effra-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

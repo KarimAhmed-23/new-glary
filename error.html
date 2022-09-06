@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+
+    <meta charset="UTF-8">
+    
+        <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0, 
+                      user-scalable=no">
+        
+    <meta name="description" content="عن قلاري">
+
+    <meta name="keywords" content="your, tags">
+        
+    <meta name='copyright' content='قلاري'>
+    
+    <meta name='robots' content='index,follow'>
+    
+    <meta name='og:title' content='قلاري'>
+    
+    <meta name='og:type' content='ERP system'>
+    
+    <meta name='og:url' content='website url'>
+    
+    <meta name='og:image' content='image here'>
+        
+    <meta name='og:description' content='عن قلاري'>
+    
+    <meta name="theme-color" content="#1C222F">
+
+    <title>قلاري</title>
+    
+    <link rel="icon" href="img/logo-small.svg" >
+
+    <!-- fonts css   -->
+    <link rel="stylesheet" type="text/css" href="css/fonts/fonts.css">
+    
+    <!-- main css   -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+    
+    <style>
+    
+        .error-area{
+            
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            background-color: #1D222E;
+            height: calc( (var(--vh, 1vh) * 100) - 1px);
+            padding: 3rem 0;
+            
+        }
+        
+        @media(min-width:100px){
+            
+             .error-area.full-top-area{
+            
+                 padding-top: 0;
+                 display: block;
+                 height: calc( (var(--vh, 1vh) * 100) - 3rem);
+                 max-height: calc( (var(--vh, 1vh) * 100) - 3rem);
+            }
+       
+        }
+       
+        .error-area .error-img{
+            
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            max-height:100% ;
+            height: auto;
+            object-fit: contain;
+            position: relative;
+        }
+        
+        .error-area .error-texts{
+            
+            padding: 0 .75rem;
+        }
+        .error-area .error-texts h1{
+            
+            font-size: 5rem;
+            color: #E8932E;
+            margin: 0;
+            line-height: 1.2;
+            font-family: 'Effra';
+            text-transform: capitalize;
+            
+        }
+        .error-area .error-texts h1.no{
+            
+            line-height: 1;
+            font-family: '29lt_bukrabold_italic';
+            font-size: 7rem;
+        }
+        .error-area .error-texts p{
+            
+            font-size: 26px;
+            color: #fff;
+            font-weight: bold;
+            margin: 0;
+            text-transform: capitalize;
+            line-height: 1.5
+        }
+        .error-area .error-texts p + a{
+            
+            margin-top: .5rem;
+        }
+        .error-area .error-texts a{
+            
+            transition: all .3s ease;
+            font-size: 20px;
+            padding: .625rem 1.5rem;
+            display: inline-block;
+            background-color: #5C8DEB;
+            border-radius: 6px;
+            text-align: center;
+            color: #fff
+        }
+        
+        .error-area .error-texts >:not(:last-child){
+            
+            padding-bottom: 1rem;
+        }
+        .error-area > *:not(:last-child){
+            
+            padding-bottom: 3rem;
+        }
+        
+        @media(max-width:575.98px){
+            
+             .error-area .error-texts h1{
+                
+                font-size: 3rem;
+            }
+             .error-area .error-texts h1.no{
+                
+                font-size: 5rem;
+            }
+             .error-area .error-texts p{
+                
+                font-size: 24px;
+            }
+            
+       
+        }
+        
+    
+    </style>
+    
+  
+</head>
+
+<body>
+    
+    
+    <div class="error-area" >
+    
+        <img class="error-img img-fluid" src="img/error-1.svg">
+        <div class="error-texts ">
+        
+            <h1 class="no">404</h1>
+            <p>للاسف ! ، الصفحة غير موجودة</p>
+            
+        </div>
+        
+        
+    
+    </div>
+    
+    <div class="error-area" >
+    
+        <div class="error-texts ">
+        
+            <h1>أسفين عزيزي !</h1>
+            <p> 
+                يبدو أن شيئًا ما يحدث بشكل خاطئ.
+                <br>
+                نحن نعمل عليه .
+            </p>
+                        
+
+            
+        </div>
+        <img class="error-img img-fluid" src="img/error2.svg">
+        
+    
+    </div>
+    
+    <div class="error-area full-top-area">
+    
+        <img class="error-img img-fluid" src="img/error3.svg">
+         <div class="error-texts ">
+            <a href="index.html">العوده للصفحة الرئيسية</a>
+            
+        </div>
+       
+    
+    </div>
+    
+    <script>
+    
+    
+        /*------------- # Fix 100vh viewport bug on mobile devices --------------*/
+
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+
+    
+    </script>
+    
+    
+</body>
+
+</html>
