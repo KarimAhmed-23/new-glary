@@ -434,7 +434,7 @@
                          
                              <div class="counter-item">
                              
-                                 <span class="counter-val">9,190</span>
+                                 <span class="counter-val">9190</span>
                                  <span class="counter-text">عدد المؤسسات</span>
                                  
                              
@@ -445,7 +445,7 @@
                          
                              <div class="counter-item">
                              
-                                 <span class="counter-val">101,207</span>
+                                 <span class="counter-val">101207</span>
                                  <span class="counter-text">عدد الفواتير</span>
                                  
                              
@@ -456,7 +456,7 @@
                          
                              <div class="counter-item">
                              
-                                 <span class="counter-val">389,023</span>
+                                 <span class="counter-val">389023</span>
                                  <span class="counter-text">إجمالي المبيعات</span>
                                  
                              
@@ -1130,7 +1130,11 @@
     
     <!-- swiper js -->
     <script src="js/swiper.js"></script>
-          
+    
+    <!-- counterup js // in this page only   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+      
     <!-- main style js   -->
     <script src="js/main.js"></script>
     
@@ -1228,6 +1232,12 @@
                 },
 
 
+         });
+        
+        /*------------- #counterup --------------*/
+         $('.counter-val').counterUp({
+            delay: 10,
+            time: 1800
          });
         
     

@@ -165,7 +165,10 @@ a , a:hover{
    
 }
 
-
+.modal{
+    
+    z-index: 99999;
+}
 /**** buttons  ****/
 
 button {
@@ -3696,7 +3699,7 @@ footer .footer-items .footer-menu .item-link:hover{
 	visibility: hidden;
 }
 .hero-content .hero-title {
-    font-size: var(--title-2);
+    font-size: var(--title-1);
     font-weight: bold;
     color: #fff;
     margin-bottom: 0;
@@ -3941,7 +3944,7 @@ footer .footer-items .footer-menu .item-link:hover{
 
     .hero-content .hero-btn{
         
-        font-size: var(--title-7)
+        font-size: var(--title-6)
     }
     .hero .counter-row .counter-item .counter-val{
         
@@ -4869,7 +4872,7 @@ footer .footer-items .footer-menu .item-link:hover{
     }
      .target-intro-area{
         
-        padding: var(--box-py) 0;
+        /*padding: var(--box-py) 0;*/
     }
      
 }
